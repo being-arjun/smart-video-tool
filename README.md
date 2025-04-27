@@ -40,5 +40,5 @@ Live preview of video thumbnails and generated QR codes.
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/smart-video-tool.git
+git clone https://github.com/being-arjun/smart-video-tool.git
 cd smart-video-tool
