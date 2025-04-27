@@ -216,7 +216,7 @@ class SmartDownloader(QWidget):
         try:
             ip_info = requests.get("http://ip-api.com/json").json()
             city = ip_info['city']
-            api_key = "98b2a86868b235af311d5a6acfe49dcb"
+            api_key = "your_api_key"
             weather = requests.get(
                 f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
             ).json()
